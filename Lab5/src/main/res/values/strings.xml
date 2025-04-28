@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Step Counter</string>
+    <string name="sensor_not_found">Датчик кроків не знайдено на пристрої</string>
+    <string name="steps_count">Кількість кроків: %d</string>
+    <string name="reset_counter">Скинути лічильник</string>
+    <string name="add_step_manually">Додати крок вручну</string>
+    <string name="permission_denied">Дозвіл на використання датчика не надано</string>
+    <string name="start_training">Почати тренування</string>
+    <string name="stop_training">Закінчити тренування</string>
+    <string name="show_stats">Показати статистику</string>
+    <string name="stats_title">Статистика тренувань</string>
+    <string name="no_trainings">Немає завершених тренувань</string>
+</resources>
