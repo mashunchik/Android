@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etCity"
+        android:hint="Введіть місто"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnGetWeather"
+        android:text="Отримати погоду"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:text="Результат тут"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnGetRates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отримати курси валют"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvRates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Курси з'являться тут"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Новини:"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/newsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- AppCompat тема для всього застосунку -->
+    <style name="Theme.NewDay" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Кольори, можеш змінити під себе -->
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#03DAC5</item>
+    </style>
+
+</resources>
